@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignatedDriver.Android", "DesignatedDriver\DesignatedDriver.Android\DesignatedDriver.Android.csproj", "{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignatedDriver", "DesignatedDriver\DesignatedDriver\DesignatedDriver.csproj", "{C7C6C12E-D8E4-49D3-8C0A-70E2693B6D4A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{A0E9DA3C-27F0-4A78-ACE4-C7F376A9D605}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignatedDriver", "DesignatedDriver\DesignatedDriver.csproj", "{BE8A4EA4-DFDA-4B06-8F60-C2AAADA6BD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignatedDriver.Android", "DesignatedDriver.Android\DesignatedDriver.Android.csproj", "{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,16 +18,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE8A4EA4-DFDA-4B06-8F60-C2AAADA6BD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8A4EA4-DFDA-4B06-8F60-C2AAADA6BD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8A4EA4-DFDA-4B06-8F60-C2AAADA6BD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8A4EA4-DFDA-4B06-8F60-C2AAADA6BD0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72C961FB-867A-4AAD-AFDA-5E19C6E771A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{C7C6C12E-D8E4-49D3-8C0A-70E2693B6D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7C6C12E-D8E4-49D3-8C0A-70E2693B6D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7C6C12E-D8E4-49D3-8C0A-70E2693B6D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7C6C12E-D8E4-49D3-8C0A-70E2693B6D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
