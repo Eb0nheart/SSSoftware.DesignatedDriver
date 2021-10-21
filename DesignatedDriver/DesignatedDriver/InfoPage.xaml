@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DesignatedDriver.InfoPage"
+             Title="Designated Driver">
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="20"/>
+
+            <RowDefinition Height="100"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="80"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="80"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="80"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+
+            <RowDefinition Height="*"/>
+
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+
+            <ColumnDefinition Width="*"/>
+            
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="120"/>
+
+            <ColumnDefinition Width="*"/>
+
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label Text="Alcohol" TextColor="DarkCyan" FontAttributes="Bold" FontSize="20" Grid.Column="2" Grid.Row="1"/>
+        <Label Text="Amount" TextColor="DarkCyan" FontAttributes="Bold" FontSize="20" Grid.Column="3" Grid.Row="1"/>
+        <Label Text="Percentage" TextColor="DarkCyan" FontAttributes="Bold" FontSize="20" Grid.Column="4" Grid.Row="1"/>
+
+        <Label Text="Beer" TextColor="DarkCyan" Grid.Column="2" Grid.Row="3"/>
+        <Label Text="350ml" TextColor="DarkCyan" Grid.Column="3" Grid.Row="3"/>
+        <Label Text="4-5%" TextColor="DarkCyan" Grid.Column="4" Grid.Row="3"/>
+
+        <Label Text="Wine" TextColor="DarkCyan" Grid.Column="2" Grid.Row="5"/>
+        <Label Text="150ml" TextColor="DarkCyan" Grid.Column="3" Grid.Row="5"/>
+        <Label Text="10-12%" TextColor="DarkCyan" Grid.Column="4" Grid.Row="5"/>
+
+        <Label Text="Liquor" TextColor="DarkCyan" Grid.Column="2" Grid.Row="7"/>
+        <Label Text="4cl" TextColor="DarkCyan" Grid.Column="3" Grid.Row="7"/>
+        <Label Text="~50%" TextColor="DarkCyan" Grid.Column="4" Grid.Row="7"/>
+
+        <Label Text="Above numbers are examples of 1 drink" TextColor="DarkCyan" Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="9"/>
+        <Label Text="Calculations are based on a BAC of .05" TextColor="DarkCyan" Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="10"/>
+        
+    </Grid>
+</ContentPage>
